@@ -8,6 +8,10 @@ import javax.inject.Inject;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    /*
+    * Field of a class can't be private or final to field injection.
+    * */
     @Inject Car car;
 
     @Override
